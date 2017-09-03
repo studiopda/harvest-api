@@ -18,6 +18,8 @@ class Project extends BaseModel
     public $code;
     public $active;
     public $billable;
+    public $isFixedFee;
+    public $fee;
     public $billBy;
     public $hourlyRate;
     public $budget;
